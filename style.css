@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: #1c4d87;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.column-1 {
+  display: grid;
+  grid-template-rows: 50px 120px 120px 120px;
+  background-color: rgb(255, 255, 255);
+  grid-gap: 40px;
+}
+
+.tittletweet h2 {
+  text-align: start;
+  margin-top: 40px;
+  color: #335f93;
+}
+
+.tweet-1 {
+    display: grid;
+    grid-template: 
+    "icon quote" 70px
+    "icon name" 50px /
+    auto 1fr;
+    
+  background-color: rgb(255, 255, 255);
+  outline: solid 2px lightblue; 
+}
+
+.icon {
+    grid-area: icon;
+    margin: 15px;
+}
+
+.quote {
+    grid-area: quote;
+    background-color: rgb(255, 255, 255);
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.name {
+    grid-area: name;
+    background-color: rgb(255, 255, 255);
+   margin-right: 150px;
+}
+
+.name h5{
+    color: rgb(52, 119, 141);
+    text-align: center;
+    
+}
+
+.name p {
+color: rgb(156, 196, 209);
+text-align: end;
+}
+
+.tweet-2 {
+    display: grid;
+    grid-template: 
+    "icon quote" 70px
+    "icon name" 50px /
+    auto 1fr;
+    
+  background-color: rgb(255, 255, 255);
+  outline: solid 2px lightblue; 
+}
+
+.icon {
+    grid-area: icon;
+    margin: 15px;
+}
+
+.quote {
+    grid-area: quote;
+    background-color: rgb(255, 255, 255);
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.name {
+    grid-area: name;
+    background-color: rgb(255, 255, 255);
+   margin-right: 150px;
+}
+
+.name h5{
+    color: rgb(52, 119, 141);
+    text-align: center;
+    
+}
+
+.name p {
+color: rgb(156, 196, 209);
+text-align: end;
+}
+
+.tweet-3 {
+    display: grid;
+    grid-template: 
+    "icon quote" 70px
+    "icon name" 50px /
+    auto 1fr;
+    
+  background-color: rgb(255, 255, 255);
+  outline: solid 2px lightblue; 
+}
+
+.icon {
+    grid-area: icon;
+    margin: 15px;
+}
+
+.quote {
+    grid-area: quote;
+    background-color: rgb(255, 255, 255);
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.name {
+    grid-area: name;
+    background-color: rgb(255, 255, 255);
+   margin-right: 150px;
+}
+
+.name h5{
+    color: rgb(52, 119, 141);
+    text-align: center;
+    
+}
+
+.name p {
+color: rgb(156, 196, 209);
+text-align: end;
+}
+
+.column-2 {
+    display: grid;
+    grid-template-rows: 50px 120px 120px 120px;
+    background-color: rgb(255, 255, 255);
+    grid-gap: 40px;
+}
+
+.column-3 {
+    display: grid;
+    grid-template-rows: 50px 120px 120px 120px;
+    background-color: rgb(255, 255, 255);
+    grid-gap: 40px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: Courgette;
+}
